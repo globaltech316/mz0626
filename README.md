@@ -12,21 +12,37 @@ This Java application implements a point-of-sale tool rental system for a hardwa
 ## Project Structure
 
 tool-rental-application/
+
 ├── src/
+
 │ ├── main/java/com/toolrental/
+
 │ │ ├── model/
+
 │ │ │ ├── Tool.java
+
 │ │ │ ├── ToolType.java
+
 │ │ │ └── RentalAgreement.java
+
 │ │ ├── service/
+
 │ │ │ └── CheckoutService.java
+
 │ │ ├── util/
+
 │ │ │ └── DateCalculator.java
+
 │ │ └── ToolRentalApplication.java
+
 │ └── test/java/com/toolrental/
+
 │ ├── service/
+
 │ │ └── CheckoutServiceTest.java
+
 │ └── ToolRentalApplicationTest.java
+
 └── pom.xml
 
 ## Requirements
